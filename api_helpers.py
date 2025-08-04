@@ -12,7 +12,6 @@ def post_api_data(endpoint, data):
     response = requests.post(f'{base_url}{endpoint}', json=data)
     return response
 
-# PATCH requests
 def patch_api_data(endpoint, data):
     response = requests.patch(f'{base_url}{endpoint}', json=data)
     return response
